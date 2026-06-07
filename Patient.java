@@ -10,7 +10,9 @@ public class Patient implements Comparable<Patient>{
     private String name;
     private int age;
     private String gender;
-    private Double weight, height, bmi;
+    Double weight;
+    private Double height;
+    private Double bmi;
     public String getName() {return name;}
     public void setName(String name) {this.name = name;}
     public int getAge() {return age;}
